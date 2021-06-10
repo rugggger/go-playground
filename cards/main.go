@@ -3,7 +3,7 @@ package main
 func main() {
 
 	//cards := newDeckFromFile("yaron.cards")
-	cards := NewDeck()
+	cards := newDeck()
 	//fmt.Println(cards.toString())
 	//cards.saveToFile("yaron.cards")
 	cards.print()

@@ -11,7 +11,7 @@ import (
 
 type deck []string
 
-func NewDeck() deck {
+func newDeck() deck {
 	cardSuits := []string{"Spades", "Hearts", "Diamonds", "Clubs"}
 	cardValues := []string{"Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight",
 		"Nine", "Ten"}
